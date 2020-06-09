@@ -1,8 +1,8 @@
 {
-  "name": "rax-canvas-jx",
-  "version": "1.0.0",
+  "name": "rax-spine-jx",
+  "version": "1.0.1",
   "description": "",
-  "main": "./dist/rax-canvas-jx.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
@@ -19,7 +19,7 @@
     "driver-dom": "^2.0.5",
     "less": "3.10.3",
     "less-loader": "5.0.0",
-    "rax": "1.1.0",
+    "rax": "^1.1.0",
     "style-loader": "^1.0.1",
     "stylesheet-loader": "0.6.9",
     "ts-loader": "6.2.1",

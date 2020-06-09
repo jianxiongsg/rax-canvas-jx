@@ -7,7 +7,7 @@ module.exports ={
     entry:'./src/index.tsx',
     output:{
         filename:(chunkData)=>{
-            return 'rax-canvas-jx.js'
+            return 'index.js'
         },
         path:path.resolve(__dirname,'./dist')
     },
