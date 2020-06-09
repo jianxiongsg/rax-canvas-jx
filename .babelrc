@@ -1,0 +1,30 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "debug":true,
+                "useBuiltIns":"false",
+                "modules":false,
+                "targets":{
+                    "browsers":[
+                        "> 1%"
+                    ]
+                }
+            }
+        ],
+        
+    ],
+    "plugins":[
+    
+        [
+            "@babel/plugin-transform-runtime",
+            {
+                "corejs":2
+            }
+        ],
+        [
+            "transform-react-jsx",
+        ]
+    ]
+}
